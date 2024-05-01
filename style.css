@@ -101,3 +101,8 @@ section{
     border: 1px solid #8393ff;
     font-size: 15px;
 }
+
+.text1 input:hover{
+  box-shadow: 5px 10px 30px black;
+  transition: all 0.5s;
+}
