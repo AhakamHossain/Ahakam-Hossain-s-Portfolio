@@ -54,9 +54,8 @@ header .logo{
     color:#8490FF
 }
 
-.nav ul ul{
+.nav ul li ul{
     display: none;
-
 }
 
 .nav ul li:hover > ul{
