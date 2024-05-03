@@ -54,6 +54,20 @@ header .logo{
     color:#8490FF
 }
 
+.nav li{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.nav li:hover{
+    color:#8490FF
+}
+
+
 .nav ul li ul{
     display: none;
 }
