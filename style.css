@@ -215,7 +215,7 @@ section{
 }
 
 .div1 h1{
-    font-size: 50px;
+    font-size: 40px;
     margin: 0px 0px 10px;
 }
 
@@ -250,9 +250,3 @@ section{
     float: left;
     padding: 20px 20px;
 }
-
-
-.skill , .skill2 p{
-    width: 330px;
-}
-
