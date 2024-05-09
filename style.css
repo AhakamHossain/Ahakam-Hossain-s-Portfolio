@@ -608,13 +608,24 @@ text-align: center;
 }
 
 .section6 .card p{
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 15px;
+    margin-top: 1px;
+}
 
+.section6 .card .margin{
+    padding-bottom: 20px;
 }
 
 .section6 .card h1{
     margin: auto;
-    color: red;
+    font-weight: normal;
+    font-size: 3rem;
+    padding-top: 25px;
+}
+
+.section6 .card h2{
+    margin-bottom: 8px;
 }
 
 .section6 .card:hover{
@@ -633,15 +644,28 @@ text-align: center;
     color: white;
 }
 
-.section6 .card .circle{
+.section6 .card .circle2{
     height: 100px;
     width: 100px;
     background-color: #fff;
     border-radius: 50%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 16px;
 }
 
-.section6 .card:hover .circle{
+.section6 .card .circle1{
+    height: 170px;
+    width: 170px;
+    background-color: #E2E5FF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 50px;  
+}
+
+.section6 .card:hover .circle2{
     background: #84ABFE;
+}
+
+.section6 .card:hover .circle1{
+    background: #b3c9f8;
 }
