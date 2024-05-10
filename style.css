@@ -15,6 +15,7 @@ header{
     display: flex;
     position: fixed;
     background-color: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 header .logo{
@@ -425,19 +426,19 @@ text-align: center;
 
 .sect5div4{
     grid-column: 2/3;
-    grid-row: 4/5;
+    grid-row: 4/6;
     padding-top: 150px;
 }
 
 .sect5div5{
     grid-column: 3/4;
-    grid-row: 4/5;
+    grid-row: 4/6;
     padding-top: 150px;
 }
 
 .sect5div6{
     grid-column: 4/5;
-    grid-row: 4/5;
+    grid-row: 4/6;
     padding-top: 150px;
 }
 
@@ -619,7 +620,8 @@ text-align: center;
 .section6 .card p{
     color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
-    margin-top: 1px;
+    margin-top: 20px;
+
 }
 
 .section6 .card .margin{
@@ -634,7 +636,14 @@ text-align: center;
 }
 
 .section6 .card h2{
-    margin-bottom: 8px;
+    margin-bottom: -10px;
+}
+
+.section6 .card h3{
+    font-size: 2rem;
+    font-weight: normal;
+    margin-left: 25px;
+    margin-top: 20px;
 }
 
 .section6 .card:hover{
@@ -682,16 +691,22 @@ text-align: center;
 
 .sect6header{
   width: 100%;
-  height: 50px;
+  height: 150px;
+}
+
+.sect6header p{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .section6 .card input{
-  background: linear-gradient(to right, #8393ff 3%, rgb(102, 183, 252));;
+  background: white;
   outline: none;
   border: #F9F9FF;
-  border-radius: 5%;
-  margin-left: 30px;
+  height: 50px;
+  width: 90%;
+  margin: auto;
   display: none;
+  font-size: 20px;
 }
 
 
@@ -701,4 +716,10 @@ text-align: center;
 
 .section6 .card:hover input{
   display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.section6 .card a{
+    text-decoration: none;
 }
