@@ -562,6 +562,7 @@ text-align: center;
     .sect5div1:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
   }
   
     .sect5div1:hover .portfolio{
@@ -571,6 +572,7 @@ text-align: center;
     .sect5div2:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
   }
   
     .sect5div2:hover .portfolio{
@@ -580,6 +582,7 @@ text-align: center;
     .sect5div3:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
   }
   
     .sect5div3:hover .portfolio{
@@ -589,6 +592,7 @@ text-align: center;
     .sect5div4:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
   }
   
     .sect5div4:hover .portfolio{
@@ -598,6 +602,7 @@ text-align: center;
     .sect5div5:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
   }
   
     .sect5div5:hover .portfolio{
@@ -608,6 +613,8 @@ text-align: center;
   .sect5div6:hover .portover{
     transition: 0.5s;
     display: block;
+    transform: scale(1.05);
+    
   }
   
     .sect5div6:hover .portfolio{
