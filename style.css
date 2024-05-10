@@ -561,14 +561,16 @@ text-align: center;
   }
   
   .sect5div6 {
-    background: linear-gradient(to right, #8393ff, rgb(102, 183, 252));
+    background:  linear-gradient(to right, #8393ff, rgb(102, 183, 252));;
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
+    position: relative;
   }
   
-  .sect5div6:hover img {
+  
+  .sect5div6 img:hover{
     opacity: .3;
     transition: 0.5s;
   }
@@ -582,6 +584,11 @@ text-align: center;
     height:800px ;
     background-color: #fff;
 }
+
+.sect6header h1, p{
+  text-align: center;
+}
+
 
 .section6 .allcard{
     background-color: #F9F9FF;
@@ -603,9 +610,11 @@ text-align: center;
     height: 650px;
 }
 
-.section6 .card p, h2, h1{
+.section6 .card p, h2, h1, h3{
     text-align: center;
 }
+
+
 
 .section6 .card p{
     color: rgba(0, 0, 0, 0.5);
@@ -668,4 +677,28 @@ text-align: center;
 
 .section6 .card:hover .circle1{
     background: #b3c9f8;
+}
+
+
+.sect6header{
+  width: 100%;
+  height: 50px;
+}
+
+.section6 .card input{
+  background: linear-gradient(to right, #8393ff 3%, rgb(102, 183, 252));;
+  outline: none;
+  border: #F9F9FF;
+  border-radius: 5%;
+  margin-left: 30px;
+  display: none;
+}
+
+
+.section6 .card:hover h3{
+  display: none;
+}
+
+.section6 .card:hover input{
+  display: block;
 }
