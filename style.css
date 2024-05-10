@@ -497,129 +497,88 @@ text-align: center;
 }
 
 .sect5div1{
-    background: linear-gradient( to right, #8393ff, rgb(102, 183, 252));
+    background-image: url(portover1.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
+  }
+
+  .sect5div1:hover .portfolio{
+    transition: 0.5s;
+    opacity: 0;
   }
   
   
   .sect5div2{
-    background: linear-gradient( to right, #8393ff, rgb(102, 183, 252));
+   background-image: url(portover2.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
   }
   
+  .sect5div2:hover .portfolio{
+    transition: 0.5s;
+    opacity: 0;
+  }
   
   .sect5div3 {
-    background: linear-gradient(to right, #8393ff, rgb(102, 183, 252));
+   background-image: url(portover3.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
+  }
+
+  .sect5div3:hover .portfolio{
+    transition: 0.5s;
+    opacity: 0;
   }
   
   
   .sect5div4 {
-    background: linear-gradient(to right, #8393ff, rgb(102, 183, 252));
+    background-image: url(portover4.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
   }
   
+  .sect5div4:hover .portfolio{
+    transition: 0.5s;
+    opacity: 0;
+  }
  
   
   .sect5div5 {
-    background: linear-gradient(to right, #8393ff, rgb(102, 183, 252));
+    background-image: url(portover5.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
+  }
+
+  .sect5div5:hover .portfolio{
+    transition: 0.5s;
+    opacity: 0;
   }
   
   
   .sect5div6 {
-    background:  linear-gradient(to right, #8393ff, rgb(102, 183, 252));;
+    background-image: url(portover6.jpg);
     width: 340px;
     height: 339px;
     border-radius: 5%;
     padding: 0;
     
   }
-  
-  .section5 .portover{
-    width: 340px;
-    height: 339px;
-    display: none;
-    padding: 0;
-    border-radius: 5%
-  }
-  
-    .sect5div1:hover .portover{
+
+  .sect5div6:hover .portfolio{
     transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
+    opacity: 0;
   }
-  
-    .sect5div1:hover .portfolio{
-      display: none;
-    }
-  
-    .sect5div2:hover .portover{
-    transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
-  }
-  
-    .sect5div2:hover .portfolio{
-      display: none;
-    }
-  
-    .sect5div3:hover .portover{
-    transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
-  }
-  
-    .sect5div3:hover .portfolio{
-      display: none;
-    }
-  
-    .sect5div4:hover .portover{
-    transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
-  }
-  
-    .sect5div4:hover .portfolio{
-      display: none;
-    }
-  
-    .sect5div5:hover .portover{
-    transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
-  }
-  
-    .sect5div5:hover .portfolio{
-      display: none;
-    }
-  
-  
-  .sect5div6:hover .portover{
-    transition: 0.5s;
-    display: block;
-    transform: scale(1.05);
-    
-  }
-  
-    .sect5div6:hover .portfolio{
-      display: none;
-    }
+
   
 
   /* Section five End*/
