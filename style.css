@@ -591,6 +591,16 @@ text-align: center;
     background-color: #fff;
 }
 
+.sect6header{
+    width: 100%;
+    height: 150px;
+    padding-top: 100px;
+  }
+  
+  .sect6header p{
+      color: rgba(0, 0, 0, 0.5);
+  }
+
 .sect6header h1, p{
   text-align: center;
 }
@@ -694,14 +704,6 @@ text-align: center;
 }
 
 
-.sect6header{
-  width: 100%;
-  height: 150px;
-}
-
-.sect6header p{
-    color: rgba(0, 0, 0, 0.5);
-}
 
 .section6 .card input{
   background: white;
@@ -728,3 +730,82 @@ text-align: center;
 .section6 .card a{
     text-decoration: none;
 }
+
+
+  /* Section Six End*/
+
+  /* Section Seven Start*/
+
+
+.sect7about{
+    width: 100%;
+    height: 10px;
+    background-color: #F9F9FF;
+    padding-top: 100px;
+    margin-bottom: 1;
+}
+
+.sect7about h1{
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.sect7about p{
+    margin-top:10px ;
+    color: #777777;
+}
+
+.section7{
+    width: 100%;
+    height: 550px;
+}
+
+.section7 .sect7all{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+}
+
+
+.section7 .sect7div{
+    width: 50%;
+    background-color: white;
+    margin-left: 50px;
+    position: relative;
+}
+
+.section7 .sect7div .text{
+    width: 80%;
+    margin-top: -60px;
+    margin-left: -45px;
+}
+
+.section7 .sect7div .text p{
+    color: #777777;
+    text-align: left;
+    margin-left: 25%;
+    width: 85%;
+    line-height: 25px;
+}
+
+.section7 .sect7div .text p:nth-child(3){
+    margin-top: 1px;
+    font-size: 15px;
+}
+
+.section7 .sect7div .text h3{
+    text-align: left;
+    margin-left: 25%;
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.section7 .sect7div img{
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+ /* Section Seven End*/
