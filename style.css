@@ -877,7 +877,7 @@ text-align: center;
    transition: 0.5s;
  }
  
- .sect8img:hover img{
+ .sect8div:hover img{
    transform: scale(1.2);
  }
 
