@@ -670,7 +670,6 @@ text-align: center;
 
 .section6 .card:hover p{
     background: linear-gradient(to right, #8393ff 3%, rgb(102, 183, 252));;
-    transition: all 0.2s ease-in;
     transform: scale(1.05);
     border-radius: 10px;
     color: white;
@@ -865,4 +864,19 @@ text-align: center;
     display: flex;
     gap: 20px;
     margin-top: -170px;
+ }
+ 
+ .sect8img{
+   width: 360px;
+   height: 220px;
+   overflow: hidden;
+ }
+ 
+ .sect8img img{
+   height: 100%;
+ }
+ 
+ .sect8img:hover img{
+   transform: scale(1.2);
+   transition: 0.5s;
  }
