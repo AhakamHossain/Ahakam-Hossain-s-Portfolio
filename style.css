@@ -764,17 +764,20 @@ text-align: center;
     width: 1400px;
     margin: auto;
     display: flex;
+    overflow: hidden;
 }
 
 
 .section7 .sect7div{
-    width: 50%;
+    width: 700px;
     background-color: white;
     margin-left: 50px;
+    position: relative;
+    animation: slid 5s infinite;
 }
 
 .section7 .sect7div .text{
-    width: 80%;
+    width: 700px;
     margin-top: -60px;
     margin-left: -45px;
 }
@@ -783,7 +786,7 @@ text-align: center;
     color: #777777;
     text-align: left;
     margin-left: 25%;
-    width: 85%;
+    width: 63%;
     line-height: 25px;
 }
 
@@ -806,5 +809,20 @@ text-align: center;
 }
 
 
+@keyframes slid{
+  0%{
+    transform: translateX(0);
+  }
+  45%{
+    transform: translateX(0);
+  }
+  55%{
+    transform: translateX(-1400px);
+  }
+  100%{
+    transform: translateX(-1400px);
+  }
+
+                  
 
  /* Section Seven End*/
