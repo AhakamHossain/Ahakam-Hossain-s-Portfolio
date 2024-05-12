@@ -823,6 +823,47 @@ text-align: center;
     transform: translateX(-1400px);
   }
 
+ }
+
                   
 
  /* Section Seven End*/
+
+ /* Section Eight Start */
+
+ .sect8header{
+    background-color: #F9F9FF;
+    height: 50px;
+    padding-top: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .sect8header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: auto;
+    margin-bottom: 30px;
+ }
+
+ .sect8header p{
+    text-align: center;
+    width: 730px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+ }
+
+ .section8{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .sect8all{
+    display: flex;
+    gap: 20px;
+    margin-top: -170px;
+ }
