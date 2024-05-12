@@ -862,8 +862,8 @@ text-align: center;
 
  .sect8all{
     display: flex;
-    gap: 20px;
-    margin-top: -170px;
+    width: 1080px;
+    gap: 30px;
  }
  
  .sect8img{
@@ -874,9 +874,46 @@ text-align: center;
  
  .sect8img img{
    height: 100%;
+   transition: 0.5s;
  }
  
  .sect8img:hover img{
    transform: scale(1.2);
-   transition: 0.5s;
  }
+
+ .sect8div h3{
+    text-align: left;
+    width: 360px;
+    font-size: 1.07rem;
+ }
+
+ .sect8div p{
+    text-align: left;
+    width: 350px;
+    color: rgba(0, 0, 0, 0.5);
+ }
+
+
+.sect8div{
+    width: 360px;
+}
+
+.sect8div hr{
+    opacity: 0.5;
+}
+
+.sect8div:hover h3{
+    color: #8490FF;
+}
+
+.sect8div .img2{
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.sect8div span{
+    color:  rgba(0, 0, 0, 0.5); ;
+}
+
+
