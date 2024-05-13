@@ -79,6 +79,7 @@ section{
     height: 665px;
     display: flex;
     justify-content: space-between;
+    padding-top: 150px;
 }
 
 .text1, .image1{
@@ -105,17 +106,20 @@ section{
     color: rgba(0, 0, 0, 0.7);
     text-align: left;
     margin-bottom: 0;
+    font-size: 1.5rem;
 }
 
 .text1 h1{
     font-size: 60px;
     text-align: left;
+    margin-top: 20px;
 }
 
 .text1 p{
     color: rgb(78, 78, 78, 0.7);
     font-size: 20px;
     width: 80%;
+    text-align: left;
 }
 
 .text1 input{
@@ -166,6 +170,7 @@ section{
     color: rgb(78, 78, 78, 0.7);
     font-size: 20px;
     width: 80%;
+    text-align: left;
 }
 
 .text2 input{
@@ -993,15 +998,3 @@ text-align: center;
   }
  }
 
-
- .section9 .sect9img1{
-    width: 1150px;
-    height: 100px;
-    background-color: red;
- }
-
- .section9 .sect9img2{
-    width: 1150px;
-    height: 100px;
-    background-color: red;
- }
