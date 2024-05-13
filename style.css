@@ -677,6 +677,11 @@ text-align: center;
     color: white;
 }
 
+.section6 .card:hover h1, h2{
+    
+    color: white;
+}
+
 .section6 .card .circle2{
     height: 100px;
     width: 100px;
