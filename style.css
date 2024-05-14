@@ -825,6 +825,7 @@ text-align: center;
     height: 35px;
     margin-top: 20px;
     margin-left: 20px;
+
 }
 
 
@@ -931,6 +932,7 @@ text-align: center;
     height: 30px;
     margin-right: 10px;
     margin-top: 10px;
+    transition: 0.5s;
 }
 
 .sect8div span{
@@ -955,6 +957,7 @@ text-align: center;
     height: 250px;
     background: linear-gradient( to right, #8393ff, rgb(102, 183, 252));
     justify-content: center;
+    padding-bottom: 0;
  }
 
  .section9 .sect9allimg{
@@ -1015,12 +1018,57 @@ text-align: center;
 
  footer{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background: #04091E;
     color: white;
+    padding-top: 0;
  }
 
+ footer .footerall{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+ }
+
+ footer .footeraboutme{
+    margin-top: 100px;
+ }
+
+ footer .footeraboutme p, h3{
+    text-align: left;
+ }
+
+ footer .footeraboutme p{
+    width: 460px;
+    text-align: left;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.5);
+ }
+
+ footer .footeraboutme a{
+    text-decoration: none;
+    color: #8490FF;
+ }
+
+ footer .footerneews{
+    margin-top: 100px;
+ }
+
+ footer .footerneews p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+ }
  
+
+ footer .footerneews input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-right: 20px;
+ }
+
+
 
 
 
