@@ -1062,11 +1062,12 @@ text-align: center;
  
 
  footer .footerneews input{
-    width: 500px;
-    height: 50px;
-    font-size: 20px;
-    padding-right: 20px;
+ font-size: 20px;
+ padding: 10px 150px 10px 10px;
+ outline: none;
+ border: none;
  }
+
 
 
 
