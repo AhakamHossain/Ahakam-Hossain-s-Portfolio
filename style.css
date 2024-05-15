@@ -1062,11 +1062,60 @@ text-align: center;
  
 
  footer .footerneews input{
- font-size: 20px;
- padding: 10px 150px 10px 10px;
- outline: none;
- border: none;
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
  }
+
+ footer .footerneews button{
+    width: 50px;
+    height: 43px;
+    margin-left: -4px;
+    outline: none;
+    border: none;
+    background: #8490FF;
+    font-size: 20px;
+    padding-bottom: 2px;
+    cursor: pointer;
+ }
+ 
+
+footer .footerfollow{
+    margin-top: 100px;
+}
+
+footer .footerfollow p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+footer .footerfollow i{
+    padding: 10px;
+}
+
+footer .footerfollow i:nth-child(3):hover{
+    color: skyblue;
+    transition: 0.5s;
+}
+
+footer .footerfollow i:nth-child(4):hover{
+    color: red;
+    transition: 0.5s;
+}
+
+footer .footerfollow i:nth-child(5):hover{
+    color: skyblue;
+    transition: 0.5s;
+}
+
+footer .footerfollow i:nth-child(6):hover{
+    color: orange;
+    transition: 0.5s;
+}
+
 
 
 
