@@ -1154,7 +1154,7 @@ footer .footerfollow i:nth-child(6):hover{
 
 
 
- @media (max-width:768px){
+ @media (max-width:1024px){
     header{
         width: 100%;
     }
@@ -1167,7 +1167,7 @@ footer .footerfollow i:nth-child(6):hover{
     header .checkbtn{
         display: block;
         margin-top: -45px;
-        margin-left: 100px;
+        margin-left: 350px;
     }
 
     header .nav ul{
@@ -1192,10 +1192,15 @@ footer .footerfollow i:nth-child(6):hover{
 
     }
 
+
+
     .nav .hide{
         display: none;
     }
 
+    header .nav li a{
+        font-size: 20px;
+    }
 
 
     
