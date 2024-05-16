@@ -62,10 +62,28 @@ header .logo{
 
 .nav ul li:hover > ul{
     display: block;
+    
 }
 
 .nav ul ul li:first-child{
     padding-top: 20px;
+}
+
+
+
+
+
+.checkbtn{
+    display: none;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.9);
+    float: right;
+    line-height: 180px;
+    margin-right: -170px;
+}
+
+#check{
+    display: none;
 }
 
 /* Header End*/
@@ -1099,21 +1117,25 @@ footer .footerfollow i{
 footer .footerfollow i:nth-child(3):hover{
     color: skyblue;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 footer .footerfollow i:nth-child(4):hover{
     color: red;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 footer .footerfollow i:nth-child(5):hover{
     color: skyblue;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 footer .footerfollow i:nth-child(6):hover{
     color: orange;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -1127,3 +1149,55 @@ footer .footerfollow i:nth-child(6):hover{
 
  
  /* Footer End*/
+
+
+
+
+
+ @media (max-width:768px){
+    header{
+        width: 100%;
+    }
+
+    header .logo{
+        margin-left: 30px;
+        margin-top: -13px;
+    }
+
+    header .checkbtn{
+        display: block;
+        margin-top: -45px;
+        margin-left: 100px;
+    }
+
+    header .nav ul{
+        position: fixed;
+        height: 100vh;
+        background-color: #F9F9FF;
+        top: 54px;
+        left: -200px;
+        transition: all 0.5s;
+    }  
+    
+    header .nav ul li{
+        line-height: 30px;
+        text-align: left;
+        margin-top: 15px;
+        clear: both;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+        width: 100%;
+
+    }
+
+    .nav .hide{
+        display: none;
+    }
+
+
+
+    
+
+ }
