@@ -1158,7 +1158,15 @@ footer .footerfollow i:nth-child(6):hover{
 
  @media (max-width:768px){
 
-    
+     /* Header Start*/
+
+        html, body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
 
     header{
         width: 100%;
@@ -1173,11 +1181,8 @@ footer .footerfollow i:nth-child(6):hover{
     header .checkbtn{
         display: block;
         margin-top: -45px;
-<<<<<<< HEAD
         margin-left: 430px;
-=======
         margin-left: 80px;
->>>>>>> 0aad8c1 (first commit)
     }
 
     header .nav ul{
@@ -1200,12 +1205,8 @@ footer .footerfollow i:nth-child(6):hover{
     #check:checked ~ ul{
         left: 0;
         width: 100%;
-<<<<<<< HEAD
         height: 100%;
-
-=======
         transition: all 0.5s;
->>>>>>> 0aad8c1 (first commit)
     }
 
 
@@ -1219,7 +1220,10 @@ footer .footerfollow i:nth-child(6):hover{
         color: #ECECEC ;
     }
     
-    
+     /* Header End*/
+     
+
+      /* Section1 Start*/
  
 
         .section1{
@@ -1251,9 +1255,100 @@ footer .footerfollow i:nth-child(6):hover{
         margin-left: 50%;
     }
 
+     /* Section1 End*/
+
+      /* SEction2 Start*/
+
     .section2{
-        
+        width: 100%;
+        height: auto;
+        display: block;
     }
+
+    .section2 .image2 img{
+        height: 400px;
+    }
+
+    .section2 .text2{
+        margin: auto;
+    }
+
+    .section2 .text2 h3{
+        font-size: 15px;
+    }
+
+    .section2 .text2 h1{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .section2 .text2 p{
+        font-size: 15px;
+        width: 420px;
+        line-height: 25px;
+    }
+
+    /* SEction2 End*/
+
+    /* SEction3 Start*/
+
+    .section3 {
+        padding-top: 150px;
+        width: 100%;
+        height: auto;
+    }
+
+    .section3 .div1{
+        margin-bottom: 50px;
+    }
+
+    .section3 .div1 p{
+        width: 530px;
+        margin-top: 20px;
+    }
+
+    .section3 .no1{
+        display: block;
+        margin-left: 25%;
+    }
+
+    .section3 .no1 p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .section3 .no2{
+        display: block;
+        margin-left: 25%;
+    }
+
+    .section3 .no2 p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* SEction3 End*/
+
+    /* SEction4 Start*/
+
+    .section4{
+        width: 100%;
+        height: 500px;
+        display: block;
+        padding-top: 20px;
+    }
+
+        /* SEction4 End*/
+
+        /* SEction5 Start*/
+
+        .section5{
+            width: 100%;
+            height: auto;
+        }
+
+
+
  }
 
 
