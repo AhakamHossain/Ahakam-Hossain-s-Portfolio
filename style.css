@@ -19,7 +19,7 @@ header{
 }
 
 header .logo{
-    margin-left: 250px;
+    margin-left: 150px;
     padding: 30px;
 }
 
@@ -28,7 +28,7 @@ header .logo{
     justify-content: center;
     align-items: center;
     margin-top: 55px;
-    margin-left: 350px;
+    margin-left: 250px;
 }
 
 .nav ul{
@@ -1148,6 +1148,46 @@ footer .footerfollow i:nth-child(6):hover{
 
 
 
+footer .footerfollow2{
+    display: none;
+    margin-top: 100px;
+}
+
+footer .footerfollow2 p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+
+footer .footerfollow2 i{
+    padding: 10px;
+}
+
+footer .footerfollow2 i:nth-child(3):hover{
+    color: skyblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .footerfollow2 i:nth-child(4):hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .footerfollow2 i:nth-child(5):hover{
+    color: skyblue;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+footer .footerfollow2 i:nth-child(6):hover{
+    color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
 
 
 
@@ -1178,16 +1218,16 @@ footer .footerfollow i:nth-child(6):hover{
         width: 100%;
         min-width: 200px;
     }
-
     header .logo{
-        margin-left: 50px;
-        margin-top: -13px;
+        margin-left: -1px;
+        margin-top: auto;
+        padding: 20px;
     }
 
     header .checkbtn{
         display: block;
-        margin-top: -45px;
-        margin-left: -50px;
+        margin-left: -300px;
+        margin-top: -30px;
     }
 
     header .nav ul{
@@ -1355,7 +1395,7 @@ footer .footerfollow i:nth-child(6):hover{
     align-items: center;
     display: grid;
     grid-row-gap: 100px;
-    grid-template-columns: 12% 25% 25% 25% 12%;
+    grid-template-columns: 1% 25% 25% 25% 1%;
     grid-template-rows: 40px 10px 282px 28px 1px;
     background-color: #fff;
 }
@@ -1564,7 +1604,7 @@ footer .footerfollow i:nth-child(6):hover{
 
   .sect7all .sect7div{
     height: auto;
-    width: 250px;
+    width: 240px;
     padding-right: 60px;
     padding-top: 25px;
   }
@@ -1865,10 +1905,66 @@ footer .footerfollow i:nth-child(6):hover{
   }
  }
 
+ /* Section Nine End*/
+
+ /* Footer Start*/
+
+ footer{
+    width: 100%;
+    height: 500px;
+    position: relative;
+ }
+
+ .footerall{
+    height: auto;
+    width: 100%;
+ }
+
+ .footerall div{
+    display: block;
+ }
+
+ .footerall div h3{
+    font-size: 1rem;
+    text-align: left;
+ }
+
+ .footerall div p{
+    font-size: 13px;
+    width: 270px;
+    line-height: 25px;
+ }
+
+ footer .footeraboutme{
+    margin-left: -10%;
+ }
 
 
 
+ footer .footerfollow{
+    display: none;
+ }
 
+ footer .follow2{
+    display: block;
+ }
+
+ footer .follow2{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: -43%;
+ }
+
+ footer .follow2 i{
+    margin-top: -5%;
+    margin-left: -5%;
+ }
+
+
+
+ footer .footerneews input{
+    width: 200px;
+ }
 
 
 
@@ -1888,23 +1984,9 @@ footer .footerfollow i:nth-child(6):hover{
 
 
 
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- @media (max-width:670px){
+ @media (max-width:992px){
 
     /* Header Start*/
 
@@ -1920,16 +2002,16 @@ footer .footerfollow i:nth-child(6):hover{
        width: 100%;
        min-width: 200px;
    }
-
    header .logo{
-       margin-left: 50px;
-       margin-top: -13px;
+       margin-left: -1px;
+       margin-top: auto;
+       padding: 20px;
    }
 
    header .checkbtn{
        display: block;
-       margin-top: -45px;
-       margin-left: -100px;
+       margin-left: -300px;
+       margin-top: -30px;
    }
 
    header .nav ul{
@@ -2089,14 +2171,592 @@ footer .footerfollow i:nth-child(6):hover{
 
        /* SEction5 Start*/
 
-       .section5{
+       
+.section5{
+   width: 100%;
+   height: 1000px;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   grid-row-gap: 100px;
+   grid-template-columns: 1% 25% 25% 25% 1%;
+   grid-template-rows: 40px 10px 282px 28px 1px;
+   background-color: #fff;
+}
+
+.sect5text1 h1{
+   font-size: 2rem;
+}
+
+.sect5text1 p{
+   font-size: 15px;
+}
+
+.section5 img{
+   height: 150px;
+}
+
+.sect5div1 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 150px;
+   text-align: center;
+}
+
+.sect5div1 p{
+   text-align: left;
+   margin-left: 10%;
+   font-size: 15px;
+}
+
+.sect5div2 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 150px;
+   text-align: center;
+}
+
+.sect5div2 p{
+   text-align: left;
+   margin-left: 10%;
+   font-size: 15px;
+}
+
+.sect5div3 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 150px;
+   text-align: center;
+}
+
+.sect5div3 p{
+   text-align: left;
+   margin-left: 10%;
+   font-size: 15px;
+}
+
+.sect5div4 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 150px;
+   text-align: center;
+}
+
+.sect5div4 p{
+   text-align: left;
+   margin-left: 15%;
+   font-size: 15px;
+}
+
+.sect5div5 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 152px;
+   text-align: center;
+}
+
+.sect5div5 p{
+   text-align: left;
+   margin-left: 15%;
+   font-size: 15px;
+}
+
+.sect5div6 h3{
+   font-size: 17px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   width: 152px;
+   text-align: center;
+}
+
+.sect5div6 p{
+   text-align: left;
+   margin-left: 16%;
+   font-size: 15px;
+}
+
+.sect5div1{
+   background-image: url(768portover1.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+ }
+
+ .sect5div1:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+ 
+ 
+ .sect5div2{
+   background-image: url(768portover2.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+ }
+ 
+ .sect5div2:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+ 
+ .sect5div3 {
+   background-image: url(768portover3.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+ }
+
+ .sect5div3:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+ 
+ 
+ .sect5div4 {
+   background-image: url(768portover4.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+ }
+ 
+ .sect5div4:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+
+ 
+ .sect5div5 {
+   background-image: url(768portover5.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+ }
+
+ .sect5div5:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+ 
+ 
+ .sect5div6 {
+   background-image: url(768portover6.jpg);
+   background-repeat: no-repeat;
+   border-radius: 5%;
+   padding: 0;
+   
+ }
+
+ .sect5div6:hover .portfolio{
+   transition: 0.5s;
+   opacity: 0;
+ }
+
+ /* SEction5 End*/
+
+ /* Section7 Start*/
+
+
+
+ .sect7about{
+   width: 100%;
+ }
+ 
+ .sect7about h1{
+   font-size: 2rem;
+ }
+
+ .sect7about p{
+   font-size: 14px;
+   width: 600px;
+   margin-left: 11%;
+ }
+
+ .section7{
+   width: 100%;
+ }
+
+ .sect7all .sect7div img{
+   height: 20px;
+ }
+
+
+ .sect7all .sect7div{
+   height: auto;
+   width: 240px;
+   padding-right: 60px;
+   padding-top: 25px;
+ }
+
+.sect7all .sect7div .text{
+   font-size: 13px;
+   margin-left: 1px;
+   width: 310px;
+ }
+
+ @keyframes slid{
+   0%{
+     transform: translateX(0);
+   }
+   45%{
+     transform: translateX(0);
+   }
+   55%{
+     transform: translateX(-750px);
+   }
+   100%{
+     transform: translateX(-750px);
+   }
+ 
+  }
+
+  /* Section Seven End*/
+
+
+  /* Section Six Start*/
+
+  .section6 {
+   width:100%;
+   height: auto;
+  }
+
+  .section6 .allcard{
+   background-color: white;
+   width: 90%;
+   height: auto;
+   display: grid;
+   grid-template-columns: 5% 45% 45% 5%;
+   grid-template-rows: 650px 50px 650px ;
+   margin: auto;
+   margin-bottom: 100px;
+}
+
+
+
+.section6 .card{
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: #F9F9FF;
+   width: 90%;
+   height: 620px;
+}
+
+.section6 .card:nth-child(1){
+   grid-column: 2/3;
+   grid-row: 1/2;
+}
+
+.section6 .card:nth-child(2){
+   grid-column: 3/4;
+   grid-row: 1/2;
+}
+
+.section6 .card:nth-child(3){
+   grid-column: 2/3;
+   grid-row: 3/4;
+}
+
+.section6 .card:nth-child(4){
+   grid-column: 3/4;
+   grid-row: 3/4;
+}
+
+
+
+
+.section6 .card p, h2, h1, h3{
+   text-align: center;
+}
+
+
+
+.section6 .card p{
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 15px;
+   margin-top: 10px;
+
+}
+
+.section6 .card .margin{
+   padding-bottom: 20px;
+}
+
+.section6 .card h1{
+   margin: auto;
+   font-weight: normal;
+   font-size: 3rem;
+   padding-top: 25px;
+}
+
+.section6 .card h2{
+   margin-bottom: 10px;
+}
+
+.section6 .card h3{
+   font-size: 2rem;
+   font-weight: normal;
+   margin-left: 25px;
+   margin-top: 20px;
+}
+
+.section6 .card:hover{
+   background: linear-gradient(to right, #8393ff 3%, rgb(102, 183, 252));;
+   transition: all 0.2s ease-in;
+   transform: scale(1.05);
+   border-radius: 10px;
+   color: white;
+}
+
+.section6 .card:hover p{
+   background: linear-gradient(to right, #8393ff 3%, rgb(102, 183, 252));;
+   transform: scale(1.05);
+   border-radius: 10px;
+   color: white;
+}
+
+.section6 .card:hover h1, h2{
+    color: white;
+}
+
+.section6 .card .circle2{
+   height: 100px;
+   width: 100px;
+   background-color: #fff;
+   border-radius: 50%;
+   margin: auto;
+   margin-top: 16px;
+}
+
+.section6 .card .circle1{
+   height: 170px;
+   width: 170px;
+   background-color: #E2E5FF;
+   border-radius: 50%;
+   margin: auto;
+   margin-top: 50px;  
+}
+
+.section6 .card:hover .circle2{
+   background: #84ABFE;
+}
+
+.section6 .card:hover .circle1{
+   background: #b3c9f8;
+}
+
+
+
+.section6 .card input{
+ background: white;
+ outline: none;
+ border: #F9F9FF;
+ height: 50px;
+ width: 90%;
+ margin: auto;
+ display: none;
+ font-size: 20px;
+}
+
+
+.section6 .card:hover h3{
+ display: none;
+}
+
+.section6 .card:hover input{
+ display: block;
+ margin: auto;
+ margin-top: 10px;
+}
+
+.section6 .card a{
+   text-decoration: none;
+}
+
+   /* Section Six End*/
+
+   /* Section Eight Start*/
+
+   .sect8header{
+       width: 100%;
+       height: auto;
+   }
+
+   .sect8header h1{
+       font-size: 2rem;
+       width: 350px;
+   }
+
+   .sect8header p{
+       font-size: 14px;
+       width: 400px;
+   }
+
+   .sect8all{
+       margin-left: 7%;
+   }
+
+   .sect8all .sect8div .sect8img{
+       height: 120px;
+   }
+   
+   .sect8all .sect8div{
+       width: 200px;
+   }
+
+   .sect8all .sect8div .flex img{
+       height: 21px;
+   }
+
+   .sect8all .sect8div .flex p{
+       font-size: 13px;
+       line-height: 20px;
+       margin-bottom:1px;
+   }
+
+   .sect8all .sect8div h3{
+       font-size: 1rem;
+       width: 200px;
+   }
+
+   .sect8all .sect8div p{
+       font-size: 13px;
+       width: 170px;
+       line-height: 20px;
+   }
+
+
+
+       /* Section Eight End*/
+
+       /* Section Nine Start*/
+
+       .section9{
            width: 100%;
-           height: auto;
+           height: 150px;
        }
+
+       .section9 .sect9allimg{
+           margin-top: 5%;
+           width: 90%;
+       }
+
+       .section9 .sect9allimg img{
+           height: 60px;
+       }
+
+       
+@keyframes sect9slid{
+   0%{
+   transform: translateX(0);
+ }
+ 10%{
+   transform: translateX(0);
+ }
+ 20%{
+   transform: translateX(-300px);
+ }
+ 30%{
+   transform: translateX(-300px);
+ }
+ 40% {
+ transform: translateX(-500px);
+ }
+ 50% {
+ transform: translateX(-500px);
+ }
+ 60% {
+ transform: translateX(-700px);
+ }
+ 70% {
+ transform: translateX(-700px);
+ }
+ 80% {
+   transform: translateX(-900px);
+ }
+ 90% {
+ transform: translateX(-900px);
+ }
+ 100% {
+ transform: translateX(-1100px);
+ }
+}
+
+/* Section Nine End*/
+
+/* Footer Start*/
+
+footer{
+   width: 100%;
+   height: 500px;
+   position: relative;
+}
+
+.footerall{
+   height: auto;
+   width: 100%;
+}
+
+.footerall div{
+   display: block;
+}
+
+.footerall div h3{
+   font-size: 1rem;
+   text-align: left;
+}
+
+.footerall div p{
+   font-size: 13px;
+   width: 270px;
+   line-height: 25px;
+}
+
+footer .footeraboutme{
+   margin-left: -10%;
+}
+
+
+
+footer .footerfollow{
+   display: none;
+}
+
+footer .follow2{
+   display: block;
+}
+
+footer .follow2{
+   position: absolute;
+   margin-top: 30%;
+   margin-left: -43%;
+}
+
+footer .follow2 i{
+   margin-top: -5%;
+   margin-left: -5%;
+}
+
+
+
+footer .footerneews input{
+   width: 200px;
+}
+
 
 
 
 }
+
+
+
 
 
 
